@@ -1,3 +1,12 @@
+main();
+
+function main() {
+  for (var i=0; i < 200; i++) {
+    console.log(i);
+    LHS();
+  }
+}
+
 function L() {
   console.log("LLL");
   console.log("LLL");
@@ -36,7 +45,7 @@ function S() {
   console.log(" ");
 }
 
-for (var i=0; i < 200; i++) {
+function LHS() {
   L();
   H();
   S();
