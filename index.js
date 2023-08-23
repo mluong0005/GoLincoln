@@ -1,5 +1,6 @@
 main();
 
+// this is where the program starts
 function main() {
   for (var i=0; i < 200; i++) {
     console.log(i);
